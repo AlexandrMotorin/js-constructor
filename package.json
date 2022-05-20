@@ -1,0 +1,24 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "javascript pure app",
+  "main": "script.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200 --open",
+    "build": "parsel build ./src/index.html"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "block": "^0.2.1",
+    "model": "^6.0.1",
+    "uti": "^6.8.0"
+  }
+}
